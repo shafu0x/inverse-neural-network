@@ -17,6 +17,8 @@ You can think about a neural network as a concatenation of matrix multiplication
 ## Neural Network
 In the `neural_network.py` you can find a very simple neural network trained on MNIST. After it archived 80% accuracy I save it as a .h5 file to use it's weights in the inverse-neural-network.
 
+![Neural Network](images/MNIST_neuralnet_image.png)
+
 ## Inverse-Neural_Network
 In `inverse_neural_network.py` you can find the inverse neural network. That takes an 10-dim input and returns a 784 dim output.
 
