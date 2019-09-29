@@ -18,9 +18,9 @@ You can think about a neural network as a concatenation of matrix multiplication
 In the `neural_network.py` you can find a very simple neural network trained on MNIST. After it archived 80% accuracy I save it as a .h5 file to use it's weights in the inverse-neural-network.
 
 ## Inverse-Neural_Network
-In `inverse_neural_network.py` you can find the inverse neural network. That takes an 10 dim input and returns a 784 dim output.
+In `inverse_neural_network.py` you can find the inverse neural network. That takes an 10-dim input and returns a 784 dim output.
 
-You can use it for example to look at which input to the network would cause it to return the following vector `[0,0,0,0,0,1,0,0,0,0]`. It is the same network but just the other way around.
+It returns the actual 28*28 pixel image that created the 10-dim output. You can use it for example to look at which input to the network would cause it to return the following vector `[0,0,0,0,0,1,0,0,0,0]`. It is the same network but just the other way around.
 
 ## Does it work
 The implementation works. You can test it out yourself. To test it run the following inference:
